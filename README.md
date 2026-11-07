@@ -4,7 +4,7 @@ Duo Lockscreen Creator joins a portrait photo and a landscape photo into one wal
 
 You don't need to install anything. Pick two photos in your browser, join them, and save the result. The app makes the image; wallpaper setup stays in iOS.
 
-[Open Duo Lockscreen Creator](https://shanek.github.io/duo-lockscreen-creator/).
+[Open Duo Lockscreen Creator](https://shanethe.dev/duo-lockscreen-creator/).
 
 ## Make a wallpaper
 
