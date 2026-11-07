@@ -43,7 +43,9 @@ for (const outcome of ['complete', 'cancel']) {
     await page.goto('/');
     await choosePair(page);
     const share = page.getByRole('button', { name: 'Save or Share', exact: true });
+    await expect(share).toBeEnabled();
     await share.focus();
+    await expect(share).toBeFocused();
     await share.press('Enter');
     await expect.poll(() => page.evaluate(() => (window as unknown as { shareSettled: boolean }).shareSettled)).toBe(true);
     await expect(share).toBeEnabled();
