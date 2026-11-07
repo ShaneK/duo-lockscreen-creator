@@ -1,0 +1,27 @@
+{
+  "purpose": "Local visual and export QA fixtures only. Not application content.",
+  "retrieved": "2026-11-06",
+  "images": [
+    {
+      "file": "dog-portrait.jpg",
+      "description": "Portrait of a golden retriever holding a flower",
+      "provider": "Unsplash",
+      "source": "https://images.unsplash.com/photo-1552053831-71594a27632d?fm=jpg&fit=max&w=900&q=90",
+      "photoPage": "https://unsplash.com/photos/Sg3XwuEpybU",
+      "license": "https://unsplash.com/license",
+      "width": 900,
+      "height": 1443,
+      "photographer": "Not independently verified"
+    },
+    {
+      "file": "coastline-landscape.jpg",
+      "description": "Landscape sunset photograph of waves meeting a sandy coast",
+      "provider": "Unsplash",
+      "source": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?fm=jpg&fit=max&w=1600&q=90",
+      "license": "https://unsplash.com/license",
+      "width": 1600,
+      "height": 1036,
+      "photographer": "Not independently verified"
+    }
+  ]
+}
