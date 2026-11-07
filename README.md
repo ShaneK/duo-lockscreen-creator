@@ -58,3 +58,7 @@ The preview also uses port `43187`, so stop the dev server first. Run `npm run t
 Pushes to `main` run the browser tests, build the app, check offline use, and deploy to GitHub Pages. You can also run the workflow from the repository's Actions tab. Only the built app in `dist/` is published.
 
 The workflow gets the site's path from GitHub Pages and passes it to Vite through `APP_BASE_PATH`. Local builds use `/` by default. To check a build under a different path, set `APP_BASE_PATH` when building and previewing, then point `PLAYWRIGHT_PRODUCTION_URL` at that URL for `npm run test:production`.
+
+## License
+
+The source code is licensed under the [MIT License](LICENSE). The sample photos in `tests/fixtures/` use the [Unsplash License](https://unsplash.com/license). Their sources are listed in `tests/fixtures/sources.json`.
